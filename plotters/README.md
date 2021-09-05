@@ -1,9 +1,16 @@
 # Plotters
 
-Plotters for the T2K TPC testbeams. The Analysis package is stored [here](https://gitlab.com/t2k-beamtest/desy_testbeam).
-
 # Event display
-Event display is now availible as a separate package [here](https://gitlab.com/t2k-beamtest/daq-reader).
+Event display can be run with
+```
+root
+.x EventDisplay.C("~/DATA/R2019_06_14-16_42_26-000.root")
+```
+The time binning of the data (510/511 bins) will be chosen automatically.
+
+On the top left of the right frame you will see the the window with event number. It will be updated with next/previous button. Also you can out any number with keyboard and press Draw button to see the event you want.
+
+P.S. if you know hot to move this window with number to bottom line with buttons, please, contribute:)
 
 # Figures plotting with Jupyter
 
